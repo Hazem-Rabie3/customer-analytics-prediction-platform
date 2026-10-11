@@ -17,7 +17,7 @@ class CustomerFeatures(BaseModel):
     Year_Birth: int = Field(
         ...,
         ge=1900,
-        le=2010,
+        le=2020,
         description="Customer's birth year",
         examples=[1971],
     )
@@ -46,14 +46,12 @@ class CustomerFeatures(BaseModel):
     Kidhome: int = Field(
         ...,
         ge=0,
-        le=2,
         description="Number of small children in household",
         examples=[1],
     )
     Teenhome: int = Field(
         ...,
         ge=0,
-        le=2,
         description="Number of teenagers in household",
         examples=[1],
     )
@@ -66,42 +64,36 @@ class CustomerFeatures(BaseModel):
     Recency: int = Field(
         ...,
         ge=0,
-        le=99,
         description="Number of days since last purchase",
         examples=[34],
     )
     NumDealsPurchases: int = Field(
         ...,
         ge=0,
-        le=15,
         description="Number of purchases made with a discount",
         examples=[3],
     )
     NumWebPurchases: int = Field(
         ...,
         ge=0,
-        le=27,
         description="Number of purchases made through the website",
         examples=[2],
     )
     NumCatalogPurchases: int = Field(
         ...,
         ge=0,
-        le=28,
         description="Number of purchases made using a catalogue",
         examples=[1],
     )
     NumStorePurchases: int = Field(
         ...,
         ge=0,
-        le=13,
         description="Number of purchases made directly in stores",
         examples=[4],
     )
     NumWebVisitsMonth: int = Field(
         ...,
         ge=0,
-        le=20,
         description="Number of visits to company's website last month",
         examples=[6],
     )
