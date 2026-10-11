@@ -1,0 +1,49 @@
+# Frontend / Node
+node_modules/
+.next/
+out/
+build/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backend / Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (raw and processed data ignored to save space)
+*.csv
+*.xlsx
+*.json
+!package.json
+!tsconfig.json
+!backend/vercel.json
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Explicitly ensure Jupyter Notebooks are tracked
+!*.ipynb
+!notebooks/*.ipynb
