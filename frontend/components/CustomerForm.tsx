@@ -129,7 +129,6 @@ export default function CustomerForm({
               type="number"
               name="Year_Birth"
               min={1900}
-              max={2010}
               required
               value={formData.Year_Birth ?? ""}
               onChange={handleInputChange}
@@ -181,7 +180,6 @@ export default function CustomerForm({
               type="number"
               name="Income"
               min={0}
-              max={700000}
               placeholder="e.g. 54000"
               value={formData.Income ?? ""}
               onChange={handleInputChange}
@@ -197,7 +195,6 @@ export default function CustomerForm({
               type="number"
               name="Kidhome"
               min={0}
-              max={2}
               required
               value={formData.Kidhome}
               onChange={handleInputChange}
@@ -213,7 +210,6 @@ export default function CustomerForm({
               type="number"
               name="Teenhome"
               min={0}
-              max={2}
               required
               value={formData.Teenhome}
               onChange={handleInputChange}
@@ -276,7 +272,6 @@ export default function CustomerForm({
               type="number"
               name="Recency"
               min={0}
-              max={99}
               required
               value={formData.Recency}
               onChange={handleInputChange}
@@ -292,7 +287,6 @@ export default function CustomerForm({
               type="number"
               name="NumWebVisitsMonth"
               min={0}
-              max={20}
               required
               value={formData.NumWebVisitsMonth}
               onChange={handleInputChange}
@@ -308,7 +302,6 @@ export default function CustomerForm({
               type="number"
               name="NumDealsPurchases"
               min={0}
-              max={15}
               required
               value={formData.NumDealsPurchases}
               onChange={handleInputChange}
@@ -324,7 +317,6 @@ export default function CustomerForm({
               type="number"
               name="NumWebPurchases"
               min={0}
-              max={27}
               required
               value={formData.NumWebPurchases}
               onChange={handleInputChange}
@@ -340,7 +332,6 @@ export default function CustomerForm({
               type="number"
               name="NumCatalogPurchases"
               min={0}
-              max={28}
               required
               value={formData.NumCatalogPurchases}
               onChange={handleInputChange}
@@ -356,7 +347,6 @@ export default function CustomerForm({
               type="number"
               name="NumStorePurchases"
               min={0}
-              max={13}
               required
               value={formData.NumStorePurchases}
               onChange={handleInputChange}
