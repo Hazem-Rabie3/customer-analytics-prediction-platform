@@ -2,9 +2,9 @@
 
 ## Abstract
 
-The Customer Analytics and Prediction Platform is an enterprise-grade, full-stack machine learning solution engineered to evaluate customer behavior, estimate lifetime financial expenditure, and determine strategic marketing segments. By synthesizing demographic indicators, channel engagement metrics, and historical promotion responsiveness, the platform delivers dual-stage machine learning inference via a modern web interface.
+The Customer Analytics and Prediction Platform is an enterprise-level, full-stack machine learning solution designed to analyze customer behavior, predict lifetime financial spending, and identify strategic marketing segments. By combining demographic data, customer engagement across different channels, and historical responses to promotional campaigns, the platform provides a dual-stage machine learning inference process through a modern web-based interface.
 
-The system addresses the operational challenge of deploying resource-intensive machine learning frameworks (such as XGBoost, Scikit-Learn, and Pandas) alongside modern web interfaces by implementing a resilient hybrid deployment architecture utilizing Cloudflare Tunnels and Vercel edge delivery.
+The system tackles the practical challenge of deploying computationally intensive machine learning technologies, including XGBoost, Scikit-Learn, and Pandas, together with a modern web application. To achieve reliable and scalable deployment, it utilizes a hybrid architecture that combines Cloudflare Tunnels for secure connectivity with Vercel for efficient edge-based web delivery.
 
 ---
 
